@@ -19,11 +19,11 @@ const HeroSection = () => {
       <div className="flex justify-center my-10">
         <a
           href="#"
-          className="bg-gradient-to-r from-orange-500 to-orange-800 py-3 px-4 mx-3 rounded-md"
+          className="bg-gradient-to-r from-orange-500 to-orange-800 py-3 md:px-4 px-3 mx-3 rounded-md"
         >
           Get started with crest
         </a>
-        <a href="#" className="py-3 px-4 mx-3 rounded-md border">
+        <a href="#" className="py-3 md:px-4 px-3 mx-3 rounded-md border">
           Documentation
         </a>
       </div>

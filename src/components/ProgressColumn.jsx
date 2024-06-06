@@ -72,11 +72,11 @@ const ProgressBarComponent = () => {
           {/* </div> */}
         </div>
       </div>
-      <div className="flex-grow flex flex-col justify-center items-center mr-20 md:mr-48">
-        <div className=" text-9xl font-bold text-purple-500">
+      <div className="flex-grow flex flex-col justify-center items-center mr-20 mt-10 md:mt-5 md:mr-48">
+        <div className="text-4xl md:text-9xl font-bold text-purple-500">
           {progress}%
         </div>
-        <div className="text-2xl mt-2">
+        <div className="md:text-2xl mt-2">
           {activeButton === 'stockouts' && 'Reduction in out-of-stock'}
           {activeButton === 'cashRecovery' && 'Reduction in cash recovery time'}
           {activeButton === 'revenue' && 'Growth in revenue'}
